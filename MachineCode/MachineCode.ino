@@ -90,7 +90,8 @@ void loop() {
   case '5': case '6': case '7': case '8': case '9':
   case '*':
       break;
-        
+
+ //Deleting the current load value       
   case '#':
       digitalWrite (A1,LOW);
       kpdValue=0;
@@ -98,7 +99,6 @@ void loop() {
       digitalWrite (A1,LOW);
       digitalWrite (A2,LOW);
       digitalWrite (A3,LOW);
-      digitalWrite (arpagi,LOW);
       digitalWrite (lowSpeed,LOW);
       digitalWrite (highSpeed,LOW);
       break;    
